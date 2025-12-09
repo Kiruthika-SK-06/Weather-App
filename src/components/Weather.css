@@ -1,6 +1,6 @@
 .weather{
     place-self: center;
-    padding:40px;
+    padding:2rem;
     border-radius: 10px;
     background:linear-gradient(180deg, hsl(187, 85%, 64%),rgb(135, 19, 230));
     display: flex;
@@ -17,40 +17,40 @@
 }
 .search-icon{
    
-    width:50px;
+    width:2.5rem;
     border-radius: 50%;
-    padding: 15px;
+    padding: 0.8rem;
     background: #ebfffc;
     cursor: pointer;
 }
 .search-bar input{
-    height:50px;
+    height:3rem;
     border:none;
     outline: blue;
     border-radius: 40px;
     padding-left: 25px;
     color: #626262;
     background: #ebfffc;
-    font-size: 18px;
+    font-size: 1rem;
 }
 .sun-icon{
-   width:150px;
-   margin:30px 0
+   width:8rem;
+   margin:2rem 0;
 }
 .temperature{
     color:white;
-    font-size:80px;
+    font-size:4rem;
     line-height: 1;
 }
 .location{
 
-    font-size: 40px;
+    font-size: 2rem;
     color: white;
 
 }
 .weather-data{
     width:100%;
-    margin-top:40px;
+    margin-top:2rem;
     color:white;
     display: flex;
     justify-content: center;
@@ -58,8 +58,8 @@
 .weather-data .col{
     display: flex;
     align-items: flex-start;
-    gap: 20px;
-    font-size: 22px;
+    gap: 1rem;
+    font-size: 1.2rem;
 }
 .weather-data .col img{
     display:block;
@@ -68,7 +68,7 @@
 }
 
 .weather-data .col img{
-    width:36px;
-    margin-top: 10px;
+    width:2rem;
+    margin-top: 0.5rem;
 
 }
