@@ -72,3 +72,47 @@
     margin-top: 0.5rem;
 
 }
+@media (max-width: 480px) {
+    .weather {
+        padding: 1.5rem;
+        width: 95%;
+    }
+
+    .sun-icon {
+        width: 6rem;
+    }
+
+    .temperature {
+        font-size: 3rem;
+    }
+
+    .location {
+        font-size: 1.5rem;
+    }
+
+    .weather-data {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .weather-data .col {
+        justify-content: center;
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .weather-data .col img {
+        width: 1.8rem;
+    }
+
+    .search-bar input {
+        height: 2.6rem;
+        font-size: 0.9rem;
+    }
+
+    .search-icon {
+        width: 2.2rem;
+        padding: 0.6rem;
+    }
+}
